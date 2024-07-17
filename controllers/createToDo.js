@@ -1,7 +1,6 @@
-// Import the model
+
 const toDo = require("../models/todo");
 
-// Define route handler
 exports.createTodo = async (req, res) => {
     try {
         const { title, desc } = req.body;
